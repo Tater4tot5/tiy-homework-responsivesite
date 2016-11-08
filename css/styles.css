@@ -1,12 +1,177 @@
-header {
+  header {
+    background-color: white;
+    color: #666666;
+    overflow: hidden;
+  }
+
+  .headerlogo {
+    float: left;
+    margin: 10px 10px 0px 0px;
+  }
+
+  .headerlist {
+    float:left;
+  }
+
+  .headerlink {
+    display: inline-block;
+    margin: 0px 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: grey;
+  }
+
+  .hero {
+    clear: both;
+    text-align: center;
+    background: url(../images/poolphoto.jpeg) turquoise;
+    background-size: cover;
+    margin: 0px auto;
+    padding: 15%;
+  }
+
+  .hero h2 {
+    color:white;
+    margin: 0%;
+    text-shadow: 1px 1px 2px black;
+    font-weight: normal;
+  }
+
+  .pricing {
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .pricingcontainer {
+    background-color: white;
+    margin: 40px 10px;
+    border: 1px solid #eeeeee;
+    text-align: center;
+  }
+
+  .five-dollar {
+    text-align: center;
+    background-color: #519251;
+  }
+
+  .pricingcontainer h3 {
+    color: white;
+    padding: 30px 0px 10px;
+    margin:0;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: normal;
+  }
+
+  .pricingcontainer h1 {
+    color: white;
+    font-weight: lighter;
+    font-size: 70px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .pricingcontainer h4 {
+    color:lightgrey;
+    font-size: 20px;
+    padding: 10px 0px 30px;
+    margin: 0px;
+    letter-spacing: 2px;
+  }
+
+  .twentyfive-dollar {
+    text-align: center;
+    background-color:#2c4985;
+  }
+
+  .fortyfive-dollar {
+    text-align: center;
+    background-color:black;
+  }
+
+  .detailscontainer {
+    clear:both;
+    margin: 5px 10px;
+  }
+
+  .features ul{
+    list-style: none;
+    padding: 0px;
+    background-color: white;
+    border: #eeeeee solid 1px;
+    margin: 0;
+  }
+
+  .features li {
+    background-color: #F7F7F7;
+    color:grey;
+    padding:20px 30px;
+    border-bottom: #eeeeee solid 1px;
+    text-decoration: none;
+  }
+
+  .CTAchoose {
+    padding: 20px;
+  }
+
+  .CTAchoose a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border: 1px lightgrey solid;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 5px 0 5px 0;
+  }
+
+  .Details {
+    text-align: left;
+    background-color: white;
+    padding: 10px;
+  }
+
+  .detailshtwo {
+    letter-spacing: 2px;
+  }
+
+
+  .detailsp{
+    color:grey;
+    line-height: 1.6;
+    margin-bottom: 60px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: black;
+    color: grey;
+    display:block;
+    padding: 8px 20px;
+    line-height: 1.6;
+  }
+
+  footer a {
+    color: white
+  }
+}
+
+@media (max-width: 479px)
+{
+
+  header {
   background-color: white;
-  height: 20px;
+  color: #666666;
+  overflow: hidden;
 }
 
 .headerlogo {
   float: left;
   margin: 10px 10px 0px 0px;
 }
+
 .headerlist {
   float:left;
 }
@@ -21,31 +186,32 @@ a {
   color: grey;
 }
 
-
 .hero {
   clear: both;
   text-align: center;
-  background: url(../images/poolphoto.jpeg);
+  background: url(../images/poolphoto.jpeg) turquoise;
+  background-size: cover;
   margin: 0px 0px 30px 0px;
   padding: 15%;
 }
 
 .hero h2 {
   color:white;
-  margin: 0%
+  margin: 0%;
+  text-shadow: 1px 1px 2px black;
 }
 
 .pricing {
   text-align: center;
   margin: 0 auto;
   overflow: hidden;
-  display: inline;
 }
 
 .pricingcontainer {
-  background-color: white
-  min-width: 33.33%;
-  margin: 10% 2.5% 10%;
+  background-color: white;
+  margin: 40px 10px;
+  border: 1px solid #eeeeee;
+  text-align: center;
 }
 
 .five-dollar {
@@ -87,51 +253,150 @@ a {
   clear:both;
 }
 
-.features {
+.features ul{
+  list-style: none;
+  padding: 0px;
   background-color: white;
-  border-right: grey solid 1px;
-  border-left: grey solid 1px;
-  border-bottom: grey solid 1px;
-  text-align: center;
+  border: #eeeeee solid 1px;
+  margin: 0;
 }
 
-.features h5 {
+.features li {
   background-color: #F7F7F7;
   color:grey;
   padding:20px 30px;
-  border-bottom: grey solid 1px;
-  margin:0px;
+  border-bottom: #eeeeee solid 1px;
+  text-decoration: none;
 }
 
 .CTAchoose {
-  display: inline-block;
+  padding: 20px;
+}
+
+.CTAchoose a {
+  text-decoration: none;
+  font-weight: bold;
   color: black;
   border: 1px lightgrey solid;
   border-radius: 40%;
   padding: 10px 15px;
-  margin: 5% 0 5% 0;
+  margin: 5px 0 5px 0;
 }
 
 .Details {
   text-align: left;
   background-color: white;
-  margin: 15% 5%;
+  padding: 10px;
 }
 
 .detailshtwo {
-  padding-top: 5%;
-
+  letter-spacing: 2px;
 }
 
-.detailsp {
+
+.detailsp{
   color:grey;
-  padding-bottom: 5%;
+  line-height: 1.6;
+  margin-bottom: 60px;
 }
 
 footer {
   text-align: center;
   background-color: black;
-  color: white;
+  color: grey;
   display:block;
-  padding: 5%;
+  padding: 8px 20px;
+  line-height: 1.6;
+}
+
+footer a {
+  color: white
+}
+
+}
+
+@media (min-width:479px) and (max-width: 767px)
+
+{
+
+.hero {
+  padding: 10%;
+}
+.hero h2 {
+  font-size: 48px;
+}
+}
+
+@media (min-width:768px) and (max-width: 978px)
+
+{
+  .hero {
+    margin: 0 auto;
+  }
+
+.hero h2 {
+  font-size: 48px;
+}
+.pricing {
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.pricingcontainer {
+  float:left;
+  width:30%;
+}
+.details {
+  clear:both;
+  overflow: hidden;
+}
+.detailscontainer {
+  float:left;
+  width: 45%;
+}
+
+.detailscontainertwo {
+  float:right;
+  width: 45%;
+}
+
+footer {
+  clear: both;
+}
+}
+
+@media (min-width:979px)
+
+{
+.hero h2 {
+  font-size: 48px;
+}
+.pricing {
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.pricingcontainer {
+  float:left;
+  width:31%;
+}
+.details {
+  clear:both;
+  overflow: hidden;
+}
+.detailscontainer {
+  float:left;
+  width: 45%;
+}
+
+.detailscontainertwo {
+  float:right;
+  width: 45%;
+}
+
+footer {
+  clear: both;
+}
 }
